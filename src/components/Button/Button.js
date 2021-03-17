@@ -1,9 +1,10 @@
 import React from 'react';
 import "./Button.css"
+
 function Button(props){
-    const {variant = "default", kind="filled", children, ...rest} = props;
+    const {variant = "default", kind="solid", children, ...rest} = props;    
     return (
-        <button className={`na-button na-${variant} na-${kind}`} {...rest}>
+        <button className={`btn ${variant} ${kind}`} {...rest}>            
             {children}
         </button>
     )

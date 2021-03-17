@@ -1,9 +1,10 @@
 import React from 'react';
-import Input from "./Input"
+import Input from "../../components/Input/Input"
 
 // meta data 
 export default {
-    title: 'Rapid UI/Form/Input/Outlined', //mandatory
+    title: 'Rapid UI/Form/Input/Standard', //mandatory
+    component:Input,
     component:Input,
     parameters: {
         actions: {
@@ -11,17 +12,14 @@ export default {
         }
     },
     args: {
-        variant: "outlined",
-        
+        variant: "standard",        
     },
-    argsTypes:{
-        variant: {control: "text"},
-        size: {control: "text"}
+    // argsTypes:{
+    //     variant: {control: "text"},
+    //     size: {control: "text"}
         
-    }
+    // }
 }
-    
-
 
 const Template = args => <Input {...args} />
 

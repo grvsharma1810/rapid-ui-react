@@ -1,0 +1,50 @@
+:root {
+    font-size: 16px;
+    --font-family: 'Open Sans', sans-serif;
+
+    --white-color: white;
+    --blue-50-color: #EFF6FF;
+    --blue-100-color: #DBEAFE;
+    --blue-600-color: #2563EB;
+    --blue-700-color: #1D4ED8;
+    --blue-800-color: #1E40AF;
+
+    --green-500-color: #22C55E;
+    --green-600-color: #16A34A;
+
+    --red-600-color: #DC2626;
+
+    --gray-100-color: #F4F4F5;
+    --gray-700-color: #3F3F46;
+    --gray-900-color: #181818;
+
+    /* Spacing */
+    --space-0: 0.25rem;
+    --space-1: 0.5rem;
+    --space-2: 1rem;
+    --space-3: 1.5rem;
+    --space-4: 2rem;
+
+    /* Font Size */
+    --size-1: 0.5rem;
+    --size-2: 1rem;
+    --size-3: 1.5rem;
+    --size-4: 2rem;
+    --size-5: 2.5rem;
+    --size-6: 3rem;
+    --size-7: 3.5rem;
+    --size-8: 4rem;
+}
+
+.avatar-wrapper {
+    background: transparent;
+    position: relative;
+    display: inline-block;
+}
+
+.avatar {
+    border-radius: 50%;
+    max-width: var(--size-8);
+    width: 100%;
+    height: auto;
+}

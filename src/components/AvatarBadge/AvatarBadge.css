@@ -1,6 +1,6 @@
+
 :root {
     font-size: 16px;
-    --font-family: 'Open Sans', sans-serif;
 
     --white-color: white;
     --blue-50-color: #EFF6FF;
@@ -35,6 +35,7 @@
     --size-7: 3.5rem;
     --size-8: 4rem;
 }
+
 
 .badge {
     position: absolute;

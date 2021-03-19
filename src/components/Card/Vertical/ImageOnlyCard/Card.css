@@ -1,6 +1,6 @@
-
 :root {
     font-size: 16px;
+
     --white-color: white;
     --blue-50-color: #EFF6FF;
     --blue-100-color: #DBEAFE;
@@ -35,15 +35,23 @@
     --size-8: 4rem;
 }
 
-.avatar-wrapper {
-    background: transparent;
-    position: relative;
-    display: inline-block;
+.card {
+    border: 0px;
+    background-color: transparent;
+    max-width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.avatar {
-    border-radius: 50%;
-    max-width: var(--size-8);
+.card>.card-img {
     width: 100%;
     height: auto;
+    border-radius: var(--size-1);
+    cursor: pointer;
+}
+
+
+.card>.card-img:hover {
+    box-shadow: 0px 3px 5px 5px var(--gray-100-color);
 }

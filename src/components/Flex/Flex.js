@@ -1,17 +1,18 @@
 import React from 'react';
 import "./Flex.css"
+import Box from '../Box/Box'
 
 // class and event handlers cannot be applied to this component currently
 function Flex(props) {
     const {children, restOfTheStyle} = props;
     return(
-        <div style={{
+        <Box style={{
+            display:'flex',
             ...restOfTheStyle
-        }}
-        className="flex"
+        }}        
         >
             {children}
-        </div>
+        </Box>
     )
 }
 

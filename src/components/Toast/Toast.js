@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 import './Toast.css';
 
@@ -65,11 +65,11 @@ const Toast = props => {
     );
 }
 
-Toast.propTypes = {
-    toastList: PropTypes.array.isRequired,
-    position: PropTypes.string,
-    autoDelete: PropTypes.bool,
-    dismissTime: PropTypes.number
-}
+// Toast.propTypes = {
+//     toastList: PropTypes.array.isRequired,
+//     position: PropTypes.string,
+//     autoDelete: PropTypes.bool,
+//     dismissTime: PropTypes.number
+// }
 
 export default Toast;
